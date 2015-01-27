@@ -384,5 +384,18 @@ namespace PayPalMobileXamarinBindings
 		[Static, Export ("libraryVersion")]
 		string LibraryVersion ();
 	}
+
+	[BaseType(typeof(NSObject))]
+	public partial interface PayPalFields
+	{
+		[Field ("PayPalEnvironmentProduction", "__Internal")]
+		NSString PayPalEnvironmentProduction { get; }
+
+		[Field ("PayPalEnvironmentSandbox", "__Internal")]
+		NSString PayPalEnvironmentSandbox { get; }
+
+		[Field ("PayPalEnvironmentNoNetwork", "__Internal")]
+		NSString PayPalEnvironmentNoNetwork { get; }
+	}
 }
 
