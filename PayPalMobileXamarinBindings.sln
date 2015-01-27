@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalMobileXamarinBindings", "PayPalMobileXamarinBindings\PayPalMobileXamarinBindings.csproj", "{B5286F14-0691-48D9-81E3-0DBDA397DE84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5286F14-0691-48D9-81E3-0DBDA397DE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5286F14-0691-48D9-81E3-0DBDA397DE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5286F14-0691-48D9-81E3-0DBDA397DE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5286F14-0691-48D9-81E3-0DBDA397DE84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PayPalMobileXamarinBindings\PayPalMobileXamarinBindings.csproj
+	EndGlobalSection
+EndGlobal
